@@ -1,0 +1,21 @@
+
+@media (min-width: 960px) {
+    .myFlexbox{
+        display: flex;
+    }
+
+    .section1{
+        background-color: blueviolet;
+        margin-left: 10px;
+    }
+
+    .section2{
+        background-color: lightcoral;
+        margin-left: 10px;
+    }
+
+    .section3{
+        background-color: lightskyblue;
+        margin-left: 10px;
+    }
+}
