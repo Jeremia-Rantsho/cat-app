@@ -1,21 +1,57 @@
 
+
+body{
+    background-color: cyan;
+}
+
+#catPic,
+#catPic1{
+    border-radius: 2em;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+}
+#catPic1{
+    width: 87%;
+}
+
+#formInput{
+    border: 1px solid black;
+    border-radius: 1em;
+}
+.form{
+    background-color: lightyellow;
+    padding: 1em;
+    margin-top: 30px;
+}
+.section1{
+    background-color: blueviolet;
+    padding: 1em;
+    margin: 1em;
+}
+
+.section2{
+    background-color: lightcoral;
+    padding: 1em;
+    margin: 1em;
+}
+.section3{
+    background-color: lightskyblue;
+    padding: 1em;
+    margin: 1em;
+}
 @media (min-width: 960px) {
+    h1{
+        text-align: center;
+    }
     .myFlexbox{
         display: flex;
     }
 
-    .section1{
-        background-color: blueviolet;
-        margin-left: 10px;
-    }
-
-    .section2{
-        background-color: lightcoral;
-        margin-left: 10px;
-    }
-
+    .section1,
+    .section2,
     .section3{
-        background-color: lightskyblue;
         margin-left: 10px;
+        
     }
+
+    
 }
